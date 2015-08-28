@@ -1,0 +1,12 @@
+@media print and ( max-width : 768px ) {
+    .lead {
+        font-family: sans-serif;
+        font-size: 21px;
+    }
+    .giant,
+    .huge,
+    .humongor, {
+        height: 9001px;
+        visibility: visible;
+    }
+}

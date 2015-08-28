@@ -1,0 +1,10 @@
+@media screen only and ( min-width : 768px ) {
+    .lead {
+        font-size: 21px;
+    }
+    .giant,
+    .huge,
+    .humongor, {
+        height: 9001px;
+    }
+}

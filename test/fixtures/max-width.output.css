@@ -1,0 +1,10 @@
+.max-width-768px .lead {
+    font-family: sans-serif;
+    font-size: 21px
+}
+.max-width-768px .giant,
+    .max-width-768px .huge,
+    .max-width-768px .humongor {
+    height: 9001px;
+    visibility: visible
+}

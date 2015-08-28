@@ -1,0 +1,10 @@
+@media ( min-width : 768px ) and (max-width: 1199px) and (orientation: landscape) {
+    .lead {
+        font-size: 21px;
+    }
+    .giant,
+    .huge,
+    .humongor, {
+        height: 9001px;
+    }
+}

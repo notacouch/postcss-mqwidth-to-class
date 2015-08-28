@@ -1,0 +1,8 @@
+.min-width-768px.max-width-1199px .lead {
+    font-size: 21px
+}
+.min-width-768px.max-width-1199px .giant,
+    .min-width-768px.max-width-1199px .huge,
+    .min-width-768px.max-width-1199px .humongor {
+    height: 9001px
+}
