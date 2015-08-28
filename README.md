@@ -1,4 +1,4 @@
-# PostCSS @media min-/max queries to .min-width.max-width classes [![Build Status][ci-img]][ci]
+# PostCSS mqwidth-to-class [![Build Status][ci-img]][ci]
 
 [PostCSS] plugin converts min/max-width media queries to classes, useful for clients that do not support media queries e.g. IE8.
 
@@ -45,3 +45,6 @@ I used the PostCSS Boilerplate and these two projects as a base:
 * [CSS MQPacker](https://github.com/hail2u/node-css-mqpacker)
 * [PostCSS Media Minmax](https://github.com/postcss/postcss-media-minmax)
 
+## [Changelog](CHANGELOG.md)
+
+## [License](LICENSE)
