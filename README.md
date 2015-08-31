@@ -36,7 +36,7 @@ See [PostCSS] docs for examples for your environment.
 
 * Only supports `px` units.
 * Ignores anything else in the query, e.g. screen, print, orientation.
-* You'd need JavaScript to add the classes to the `<html>` or `<body>` tags. E.g. [mqwidth-to-class.js](https://github.com/notacouch/mqwidth-to-class)
+* You'd need JavaScript to add the classes to the `<html>` or `<body>` tags. E.g. [mqwidth-to-class.js](https://github.com/notacouch/mqwidth-to-class).
 * For IE8, off the bat you can have the `<html>` tag via conditional comments.
 
 ## Credit
