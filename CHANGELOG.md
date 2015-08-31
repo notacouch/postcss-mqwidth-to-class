@@ -5,6 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.3.2] - 2015-08-31
 ### Added
 - Support for NOT
+
 ### Fixed
 - Support for a single min-/max-width media query in a list (OR) of queries
 
