@@ -1,0 +1,12 @@
+/* sample from http://stackoverflow.com/a/23524569/781824 */
+
+@media handheld, (min-width: 650px), (orientation: landscape) {
+    .lead {
+        font-size: 21px;
+    }
+    .giant,
+    .huge,
+    .humongor, {
+        height: 9001px;
+    }
+}

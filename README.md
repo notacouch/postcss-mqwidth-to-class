@@ -41,7 +41,7 @@ See [PostCSS] docs for examples for your environment.
 
 ## Credit
 
-I used the PostCSS Boilerplate and these two projects as a base:
+I used the [PostCSS Boilerplate](https://github.com/postcss/postcss-plugin-boilerplate) and these two projects as a base:
 * [CSS MQPacker](https://github.com/hail2u/node-css-mqpacker)
 * [PostCSS Media Minmax](https://github.com/postcss/postcss-media-minmax)
 

@@ -32,23 +32,33 @@ var test = function (input, opts, done) {
 
 describe('postcss-mqwidth-to-class', function () {
 
-    it('converts min-width' +
-        ' (ignores non-width stuff e.g. screen only)', function (done) {
+
+    it('converts min-width (ignores non-width stuff e.g. screen only)', function (done) {
         test('min-width', { }, done);
     });
 
-    it('converts max-width' +
-        ' (ignores non-width stuff e.g. print)', function (done) {
+    it('converts max-width (ignores non-width stuff e.g. print)', function (done) {
         test('max-width', { }, done);
     });
 
-    it('converts min-width AND max-width' +
-        ' (ignores non-width stuff e.g. orientation)', function (done) {
+    it('converts min-width AND max-width (ignores non-width stuff e.g. orientation)', function (done) {
         test('min-max-width', { }, done);
     });
 
-    it('converts multiple (comma-delimited) media queries', function (done) {
+    it('converts multiple media queries', function (done) {
         test('multiple-min-max-width', { }, done);
+    });
+    
+    it('converts single media query in a list', function (done) {
+        test('query-in-list', { }, done);
+    });
+    
+    it('leaves non-min-/max-width media queries alone', function (done) {
+        test('no-width-no-touch', { }, done);
+    });
+    
+    it('supports NOT', function (done) {
+        test('not', { }, done);
     });
 
 });

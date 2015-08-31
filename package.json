@@ -1,6 +1,6 @@
 {
   "name": "postcss-mqwidth-to-class",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "PostCSS plugin converts min/max-width media queries to classes, useful for clients that do not support media queries e.g. IE8.",
   "keywords": [
     "postcss",

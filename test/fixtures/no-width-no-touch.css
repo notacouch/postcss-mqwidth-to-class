@@ -1,0 +1,34 @@
+/* sample from http://stackoverflow.com/a/23524569/781824 */
+
+@media handheld, (orientation: landscape) {
+    .lead {
+        font-size: 21px;
+    }
+    .giant,
+    .huge,
+    .humongor, {
+        height: 9001px;
+    }
+}
+
+@media only screen AND (orientation: portrait) {
+    .lead {
+        font-size: 21px;
+    }
+    .giant,
+    .huge,
+    .humongor, {
+        height: 9001px;
+    }
+}
+
+@media print AND (orientation: landscape) {
+    .lead {
+        font-size: 21px;
+    }
+    .giant,
+    .huge,
+    .humongor, {
+        height: 9001px;
+    }
+}

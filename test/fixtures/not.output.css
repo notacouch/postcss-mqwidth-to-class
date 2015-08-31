@@ -1,0 +1,10 @@
+.not-max-width-768px .lead,.not-min-width-1200px .lead {
+    font-size: 21px
+}
+.not-max-width-768px .giant,.not-min-width-1200px .giant,
+    .not-max-width-768px .huge,
+    .not-min-width-1200px .huge,
+    .not-max-width-768px .humongor,
+    .not-min-width-1200px .humongor {
+    height: 9001px
+}
